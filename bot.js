@@ -42,7 +42,7 @@ client.on('ready', () => {
     client.user.setStatus("idle")
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "1"
+const prefix = "4"
 client.on('message', async msg => { // eslint-disable-line
     if (msg.author.bot) return undefined;
     //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -235,7 +235,7 @@ function play(guild, song) {
 }//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
  
 
-const adminprefix = "1";
+const adminprefix = "4";
 const devs = ['285804296400797697' , '448590558160748545' , ''];
 client.on('message', message => {//for dev
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -264,7 +264,7 @@ if (message.content.startsWith(adminprefix + 't')) {
  
    
    client.on("message", message => {
- if (message.content === "1help") {
+ if (message.content === "4help") {
   const embed = new Discord.RichEmbed() 
       .setColor("RANDOM")
       .setDescription(`
